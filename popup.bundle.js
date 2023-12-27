@@ -9050,7 +9050,7 @@
                 }
             }),
             Zt = [{
-                title: "START UNBLOCKING",
+                title: "START UNBLOCKING!",
                 values: [{
                     title: "ON",
                     value: "Mozilla/5.0 (X11; CrOS aarch64 13099.85.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4",
@@ -9158,11 +9158,13 @@
                                 children: [lt("option", {
                                     value: "browserDefault",
                                     children: "OFF"
-                                }), 
-                                lt("option", {
-                                    value: "Mozilla/5.0 (X11; CrOS aarch64 13099.85.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4",
-                                    children: "ON"
-                                }), ]
+                                }), Object.keys(Zt).map((e => lt("optgroup", {
+                                    label: Zt[e].title,
+                                    children: Zt[e].values.map((e => lt("option", {
+                                        value: JSON.stringify(e),
+                                        children: e.title
+                                    }, e.value)))
+                                }, e)))]
                             })
                         }), lt(Ot, {
                             sx: {
