@@ -13,7 +13,7 @@ const Footer = () => {
     >
       <Flex sx={{ justifyContent: 'space-around', width: '100%' }}>
         <Link
-          href="https://example.com"
+          href="https://chrome.google.com/webstore/detail/cfdecfkfhbchnoghljebdkfkofpjmhff/reviews"
           target="_blank"
           variant="footer"
         >
