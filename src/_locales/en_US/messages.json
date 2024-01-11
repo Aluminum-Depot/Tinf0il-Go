@@ -1,6 +1,8 @@
 {
-  "extName": { "message": "Browser Boost - Extra Tools for Chrome" },
+  "extName": {
+    "message": "Tinf0il Go"
+  },
   "extDesc": {
-    "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
+    "message": "Probe the internet portably with Tinfoil Go!"
   }
 }
