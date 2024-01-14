@@ -1,10 +1,10 @@
 {
-  "name": "browserboost",
-  "version": "1.1.1",
+  "name": "tinf0ilgo",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BrowserBoost/Extension.git"
+    "url": "https://github.com/Aluminum-Depot/Tinf0il-Go.git"
   },
   "scripts": {
     "build-chrome": "BROWSER=chrome node scripts/build.js",
