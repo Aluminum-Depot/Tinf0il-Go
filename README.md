@@ -1,2 +1,7 @@
-# Tinf0il-Go
- Browser extension for shenanagins
+build with 
+
+```
+yarn
+scripts/build.js
+scripts/webserver.js
+```
